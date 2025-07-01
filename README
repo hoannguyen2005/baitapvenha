@@ -1,0 +1,16 @@
+/CloudVideoSimulator
+|
+|-- app.py                  # File Flask chính (backend)
+|
+|-- templates/
+|   |-- index.html          # File giao diện người dùng (frontend)
+|
+|-- static/
+|   |-- css/
+|   |   |-- style.css       # File định dạng, làm đẹp trang web
+|   |-- js/
+|       |-- main.js         # File JavaScript xử lý logic phía client
+|
+|-- cloud_storage/          # Thư mục giả lập "Cloud" để lưu file đã mã hóa
+|-- uploads/                # Thư mục tạm để chứa file người dùng vừa upload lên
+
